@@ -1,0 +1,10 @@
+table{
+    border-collapse: collapse;
+    font-size: 1.5rem;
+}
+th{
+    border: 2px solid goldenrod;
+}
+tr{
+    border: 2px solid goldenrod;
+}

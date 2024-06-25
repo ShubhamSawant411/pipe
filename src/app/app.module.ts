@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TruncTwentyPipe } from './trunc-twenty.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TruncTwentyPipe
   ],
   imports: [
     BrowserModule,
